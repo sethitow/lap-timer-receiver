@@ -1,17 +1,17 @@
 # Infrared Lap Timer Receiver
 An IR receiver for AIM lap timing beacons
 
-##Hardware
+## Hardware
 The code is written to run on an AVR microcontroller. This was chosen over PIC32 because I already knew how to use interrupts in AVR-C and I didn't want to learn MP-Lab
 
-##Files
-###irPulseWidthTest
+## Files
+### irPulseWidthTest
 Measures the width of IR pulses for testing, diagnostics, and analysis
 
-###irReceiver
+### irReceiver
 most functional code
 
-###lapTimerReceiverWithLCD
+### lapTimerReceiverWithLCD
 referance code mooched from https://ucexperiment.wordpress.com/2012/02/18/arduino-ir-lap-timer/
 
 ## About the AIM IR Beacon
